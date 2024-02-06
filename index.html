@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./init.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
-    
+    <button id="btnToggle" class="btn-toggle">Light mode</button>
+    <div class="clock-container">
+        <div class="clock" id="clock">
+            <div class="hour pointer" id="hour"></div>
+            <div class="minute pointer" id="minute"></div>
+            <div class="second pointer" id="second"></div>
+            <div class="center-pointer"></div>
+        </div>
+        <div class="time" id="time"></div>
+        <div class="date">
+            <span class="week-month" id="weekMonth"></span>
+            <span class="circle text-center" id="day"></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
 </body>
+
 </html>
